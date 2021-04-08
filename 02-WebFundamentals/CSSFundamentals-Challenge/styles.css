@@ -24,7 +24,7 @@ h3 {
 .flag1 {
   width: 300px;
   height: 180px;
-  background-image: linear-gradient(#000000 33%, #DD0000 33% 66%, #FFCE00 66% 100%);
+  background-image: linear-gradient(#000000 33%, #dd0000 33% 66%, #ffce00 66% 100%);
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
@@ -33,13 +33,13 @@ h3 {
 }
 
 .flag1:hover {
-  background-image: linear-gradient(#C8102E 33%, #FFFFFF 33% 66%, #00843D 66% 100%);
+  background-image: linear-gradient(#c8102e 33%, #ffffff 33% 66%, #00843d 66% 100%);
 }
 
 .flag2 {
   width: 300px;
   height: 200px;
-  background-image: linear-gradient(90deg, #001489 33%, #FFFFFF 33% 66%, #EF4135 66% 100%);
+  background-image: linear-gradient(90deg, #001489 33%, #ffffff 33% 66%, #ef4135 66% 100%);
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
@@ -48,7 +48,7 @@ h3 {
 }
 
 .flag2:active {
-  background-image: linear-gradient(90deg, #169B62 33%, #FFFFFF 33% 66%, #FF8200 66% 100%);
+  background-image: linear-gradient(90deg, #169b62 33%, #ffffff 33% 66%, #ff8200 66% 100%);
 }
 
 
