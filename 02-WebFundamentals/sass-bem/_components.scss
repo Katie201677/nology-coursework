@@ -1,4 +1,4 @@
-nav {
+.navigation {
   align-items: center;
   background-color: $color-primary;
   display: flex;
@@ -23,21 +23,21 @@ nav {
   width: 100px;
 }
 
-div {
+.intro {
   text-align: center;
 
-  h1 {
+  &__heading {
     color: $color-primary;
     font-size: 50px;
   }
 
-  h2 {
+  &__sub-heading {
     font-family: $font-display;
     font-size: 25px;
     margin: 20px 0;
   }
 
-  a {
+  &__button {
     margin: 0 auto;
   }
 }
