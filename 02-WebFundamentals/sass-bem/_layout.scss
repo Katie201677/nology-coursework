@@ -1,6 +1,15 @@
 .header {
   align-items: center;
   display: flex;
-  height: 90vh;
+  height: 70vh;
   justify-content: center;
+}
+
+.main {
+  background-color: $color-primary;
+  display: flex;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  
 }
