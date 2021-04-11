@@ -27,9 +27,16 @@
     width: 100%;
     background-color: $color-primary-light;
   }
+
+  &--outro {
+    background-color: $color-white;
+    color: $color-primary;
+    border: 1px solid $color-primary;
+    width: 150px;
+  }
 }
 
-.intro {
+.intro-outro {
   text-align: center;
 
   &__heading {
@@ -61,5 +68,17 @@
 
   &__input {
     margin-bottom: 20px;
+  }
+}
+
+.footer {
+  background-color: $color-primary;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 50px;
+
+  &__p {
+    color: $color-white;
   }
 }

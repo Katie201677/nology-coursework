@@ -41,20 +41,26 @@ a:visited {
   width: 100%;
   background-color: #55a5f0;
 }
+.button--outro {
+  background-color: #fafafa;
+  color: #28527a;
+  border: 1px solid #28527a;
+  width: 150px;
+}
 
-.intro {
+.intro-outro {
   text-align: center;
 }
-.intro__heading {
+.intro-outro__heading {
   color: #28527a;
   font-size: 50px;
 }
-.intro__sub-heading {
+.intro-outro__sub-heading {
   font-family: "Dancing Script", cursive;
   font-size: 25px;
   margin: 20px 0;
 }
-.intro__button {
+.intro-outro__button {
   margin: 0 auto;
 }
 
@@ -71,6 +77,17 @@ a:visited {
 }
 .form__input {
   margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #28527a;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 50px;
+}
+.footer__p {
+  color: #fafafa;
 }
 
 .header {
