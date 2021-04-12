@@ -41,26 +41,25 @@ a:visited {
   width: 100%;
   background-color: #55a5f0;
 }
-.button--outro {
-  background-color: #fafafa;
-  color: #28527a;
+.button--secondary {
+  background-color: unset;
   border: 1px solid #28527a;
-  width: 150px;
+  color: #28527a;
 }
 
-.intro-outro {
+.intro {
   text-align: center;
 }
-.intro-outro__heading {
+.intro__heading {
   color: #28527a;
   font-size: 50px;
 }
-.intro-outro__sub-heading {
+.intro__sub-heading {
   font-family: "Dancing Script", cursive;
   font-size: 25px;
   margin: 20px 0;
 }
-.intro-outro__button {
+.intro__button {
   margin: 0 auto;
 }
 
@@ -79,14 +78,24 @@ a:visited {
   margin-bottom: 20px;
 }
 
+.outro {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.outro__heading {
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
 .footer {
   background-color: #28527a;
   display: flex;
   justify-content: space-between;
-  padding: 20px;
-  margin-top: 50px;
+  padding: 20px 40px;
 }
-.footer__p {
+.footer__text {
   color: #fafafa;
 }
 
@@ -97,8 +106,15 @@ a:visited {
   justify-content: center;
 }
 
-.main {
+.contact {
+  align-items: center;
   background-color: #28527a;
+  display: flex;
+  height: 50vh;
+  justify-content: center;
+}
+
+.outro-container {
   display: flex;
   height: 50vh;
   justify-content: center;

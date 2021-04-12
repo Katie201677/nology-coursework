@@ -28,15 +28,14 @@
     background-color: $color-primary-light;
   }
 
-  &--outro {
-    background-color: $color-white;
-    color: $color-primary;
+  &--secondary {
+    background-color: unset;
     border: 1px solid $color-primary;
-    width: 150px;
+    color: $color-primary; 
   }
 }
 
-.intro-outro {
+.intro {
   text-align: center;
 
   &__heading {
@@ -71,14 +70,26 @@
   }
 }
 
+.outro {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  &__heading {
+    font-family: $font-display;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+}
+
 .footer {
   background-color: $color-primary;
   display: flex;
   justify-content: space-between;
-  padding: 20px;
-  margin-top: 50px;
+  padding: 20px 40px;
 
-  &__p {
+  &__text {
     color: $color-white;
   }
 }

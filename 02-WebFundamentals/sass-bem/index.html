@@ -14,10 +14,10 @@
   </nav>
 
   <header class="header">
-    <div class="intro-outro">
-      <h1 class="intro-outro__heading">Hello</h1>
-      <h2 class="intro-outro__sub-heading">Welcome to my website</h2>
-      <a class="intro-outro__button button" href="#">scroll</a>
+    <div class="intro">
+      <h1 class="intro__heading">Hello</h1>
+      <h2 class="intro__sub-heading">Welcome to my website</h2>
+      <a class="intro__button button" href="#">scroll</a>
     </div>  
   </header>
 
@@ -25,27 +25,31 @@
   
   <main class="main">
   
-    <form class="form" action="">
-      <label for="name" class="form__label">Name:</label>
-      <input type="text" name="name" class="form__input">
-      <label for="email" class="form__label">Email:</label>
-      <input type="email" name="email" class="form__input">
-      <button type="submit" class="button button--form">Send</button>
-    </form>
+    <section class="contact">
+      <form class="form" action="">
+        <label for="name" class="form__label">Name:</label>
+        <input type="text" name="name" class="form__input">
+        <label for="email" class="form__label">Email:</label>
+        <input type="email" name="email" class="form__input">
+        <button type="submit" class="button button--form">Send</button>
+      </form>
+    </section>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#285271" fill-opacity="1" d="M0,256L34.3,224C68.6,192,137,128,206,101.3C274.3,75,343,85,411,122.7C480,160,549,224,617,245.3C685.7,267,754,245,823,218.7C891.4,192,960,160,1029,165.3C1097.1,171,1166,213,1234,218.7C1302.9,224,1371,192,1406,176L1440,160L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
+
+    <section class="outro-container">
+      <div class="outro">
+        <h2 class="outro__heading">Thankyou for visiting</h2>
+        <a class="button button--secondary" href="#">Log out</a>
+      </div>
+    </section>
 
   </main>
 
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#285271" fill-opacity="1" d="M0,256L34.3,224C68.6,192,137,128,206,101.3C274.3,75,343,85,411,122.7C480,160,549,224,617,245.3C685.7,267,754,245,823,218.7C891.4,192,960,160,1029,165.3C1097.1,171,1166,213,1234,218.7C1302.9,224,1371,192,1406,176L1440,160L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
-
-  <section class="intro-outro">
-    <h2 class="intro-outro__sub-heading">Thankyou for visiting</h2>
-    <a class="intro-outro__button button button--outro" href="#">Log out</a>
-  </section>
-
   <footer class="footer">
     <a class="logo" href="#">My Site</a>
-    <p class="footer__p">copyright</p>
-    <p class="footer__p">2021</p>
+    <p class="footer__text">copyright</p>
+    <p class="footer__text">2021</p>
   </footer>
 
 </body>

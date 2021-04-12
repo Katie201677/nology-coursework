@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: cornflowerblue;
+  height: 50px;
+  width: 100%;
+}
+
+section {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  padding: 20px;
+}
+section div {
+  background-color: crimson;
+  height: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 550px) {
+  section {
+    grid-template-columns: 1fr;
+  }
+}
