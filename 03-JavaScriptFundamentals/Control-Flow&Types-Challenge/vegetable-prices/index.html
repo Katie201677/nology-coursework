@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vegetable Price CHecker</title>
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1>How Much Is That Vegetable?</h1>
+  <label for="vegetables">Choose a vegetable:</label>
+  <select id="vegetables" name="vegetables" onchange="handleChange(event)">
+    <option value="potatoes">Potatoes</option>
+    <option value="carrots">Carrots</option>
+    <option value="brocolli">Brocolli</option>
+    <option value="cabbage">Cabbage</option>
+    <option value="asparagus">Asparagus</option>
+  </select>
+
+  <div>
+    <p class="priceDisplay"></p>
+  </div>
+</body>
+</html>
