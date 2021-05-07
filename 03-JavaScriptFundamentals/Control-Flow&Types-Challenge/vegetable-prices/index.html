@@ -4,22 +4,31 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vegetable Price CHecker</title>
+  <title>Vegetable Price Checker</title>
   <script src="script.js"></script>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <h1>How Much Is That Vegetable?</h1>
-  <label for="vegetables">Choose a vegetable:</label>
-  <select id="vegetables" name="vegetables" onchange="handleChange(event)">
-    <option value="potatoes">Potatoes</option>
-    <option value="carrots">Carrots</option>
-    <option value="brocolli">Brocolli</option>
-    <option value="cabbage">Cabbage</option>
-    <option value="asparagus">Asparagus</option>
-  </select>
 
-  <div>
-    <p class="priceDisplay"></p>
+<body>
+  
+  <div class="transparent">
+    <h1 class="h1">How Much Is That Vegetable?</h1>
+    <div class="main-box">
+      <label for="vegetables" class="main-box__label">Choose a vegetable:</label>
+      <select id="vegetables" name="vegetables" onchange="handleChange(event)" class="main-box__select">
+        <option value="" selected disabled>--Please select--</option>
+        <option value="potatoes">Potatoes</option>
+        <option value="carrots">Carrots</option>
+        <option value="brocolli">Brocolli</option>
+        <option value="cabbage">Cabbage</option>
+        <option value="asparagus">Asparagus</option>
+      </select>
+
+      <div>
+        <p class="main-box__priceDisplay">Price per kilo:</p>
+      </div>
+    </div>
+
   </div>
 </body>
 </html>

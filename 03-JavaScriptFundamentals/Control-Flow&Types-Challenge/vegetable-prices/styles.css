@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("./images/carrots.jpg");
+  background-size: cover;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.transparent {
+  background-color: rgba(255, 255, 255, 0.4);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding: 20px;
+  width: 75%;
+}
+
+.h1 {
+  margin-bottom: 50px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.main-box {
+  align-items: center;
+  background-color: #FF5719;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.main-box__label {
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.main-box__select {
+  margin-bottom: 30px;
+  padding: 5px;
+  width: 150px;
+}
+.main-box__priceDisplay {
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .main-box {
+    width: 30%;
+  }
+}
